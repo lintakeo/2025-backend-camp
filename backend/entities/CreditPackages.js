@@ -1,3 +1,7 @@
+/**
+ * 堂數
+ */
+
 const { EntitySchema } = require('typeorm')
 
 module.exports = new EntitySchema({
