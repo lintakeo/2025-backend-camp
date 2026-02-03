@@ -30,8 +30,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/healthcheck', (req, res) => {
   res.status(200).json({
   status: 'success',
-  message: 'OK' 
-  })
+  message: 'OK'
+})  
 })  
 app.use('/api/credit-package', creditPackageRouter)
 app.use('/api/coaches/skill', skillRouter)
